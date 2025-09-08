@@ -1,0 +1,6 @@
+x=int(input("Enter the principle amount: "))
+y=int(input("Enter the time in years: "))
+z=float(input("Enter the rate of intrest:"))
+n=int(input("the number of times that interest is compounded per year"))
+a=x*((1+(z/n))**(n*y))
+print("The compound intrest calculated from the given data is ",a)
